@@ -1,5 +1,5 @@
-#  MULTI-MUSIC BOT BY RTX 
-▶️ simple and powerful multi music bot.
+#  Gojo Satoru
+▶️ simple and powerful moderation bot
 ▶️ consisting of various commands.
 ▶️ Still in development you may face minor bugs|
 
@@ -45,25 +45,5 @@ The basic or default prefix is "?". You can change the prefix by modifying the `
 
 # 📚 Copyright 
 
-All code in this project is authored by RTX. Please do not use this code for any public usage, such as creating YouTube videos, Git repositories, etc., without my explicit permission.
+All code in this project is authored by imarhaam. Please do not use this code for any public usage, such as creating YouTube videos, Git repositories, etc., without my explicit permission.
 
-/*
-
-   MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
-
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-
-   FOR EMOJIS EITHER YOU CAN EDIT OR JOIN OUR DISCORD SERVER 
-   SO WE ADD BOT TO OUR SERVER SO YOU GET ANIMATED EMOJIS.
-
-   DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-   YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
-
-   FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/c4kaW2sSbm ]
-*/
