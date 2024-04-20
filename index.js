@@ -1,25 +1,4 @@
-/*
 
-   MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
-
-
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-
-   FOR EMOJIS EITHER YOU CAN EDIT OR JOIN OUR DISCORD SERVER 
-   SO WE ADD BOT TO OUR SERVER SO YOU GET ANIMATED EMOJIS.
-
-   DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-   YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
-
-   FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/c4kaW2sSbm ]
-   
-*/
 
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
@@ -129,10 +108,10 @@ client.on('messageCreate', (message) => {
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log('\x1b[32m%s\x1b[0m', '|    🍔 Bot logged in successfully!');
-    console.log('\x1b[36m%s\x1b[0m', '|    🚀 Commands Loaded successfully!');
-    console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
-    console.log('\x1b[36m%s\x1b[0m', `|    🏡 Bot is in ${client.guilds.cache.size} servers`);
+    console.log('\x1b[32m%s\x1b[0m', '|    🍔 I Alone Am The Honoured One');
+    console.log('\x1b[36m%s\x1b[0m', '|    🚀 I Am Complete');
+    console.log('\x1b[32m%s\x1b[0m', `|    🌼 I Am Gojo Satoru`);
+    console.log('\x1b[36m%s\x1b[0m', `|    🏡 I Am On Cloud7`);
   } catch (error) {
     console.error('\x1b[31m%s\x1b[0m', '❌ Failed to log in:', error);
     console.log('\x1b[31m%s\x1b[0m', '❌ Client Not Login, Restarting Process...');
@@ -145,7 +124,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `Update Out V@1.2`, type: ActivityType.Watching }],
+      activities: [{ name: `Cloud Seven | ☁`, type: ActivityType.Watching }],
       status: 'idle',
     });
   }, 2000); 
@@ -165,22 +144,3 @@ setInterval(() => {
 module.exports = client;
 
 
-/*
-   MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
-
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-
-   FOR EMOJIS EITHER YOU CAN EDIT OR JOIN OUR DISCORD SERVER 
-   SO WE ADD BOT TO OUR SERVER SO YOU GET ANIMATED EMOJIS.
-
-   DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-   YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
-
-   FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/c4kaW2sSbm ]
-*/
