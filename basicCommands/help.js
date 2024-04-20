@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [RTX](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [imarhaam](https://www.youtube.com/@clashifiedEXE)**\n\n__**COMMANDS :**__ `)
       .addFields(
         // Basic commands category
         {
@@ -57,25 +57,15 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1175487983915376662/1175668219592331385/Multi_Musix_bot.png?ex=656c115a&is=65599c5a&hm=f31305678f6f5621228bae42312b77577380b5757c806469799392bd854a265f&`);
+      .setImage(`https://media.discordapp.net/attachments/1203668832166744095/1231130256279076886/GojoSatoru.pg.png?ex=6635d666&is=66236166&hm=108466e8fe85125879f6eabf6c3592b43403786ec9b17d4879d3470aa29a098d&=&format=webp&quality=lossless&width=1365&height=597`);
 
     const button1 = new ButtonBuilder()
-      .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
-      .setStyle(ButtonStyle.Link);
-
-    const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
-      .setStyle(ButtonStyle.Link);
-
-    const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/MULTI-MUSIC-BOT-v200?v=1')
+      .setURL('https://dsc.gg/cloudseven')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
-      .addComponents(button1, button2, button3);
+      .addComponents(button1);
     
     message.reply({ embeds: [embed], components: [row] });
   },
