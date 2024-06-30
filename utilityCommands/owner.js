@@ -10,8 +10,8 @@ module.exports = {
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
             .setDescription(`__**About me**__:\n 👋🏻  hey, i am arhaam <3 
-🗣️  Erin's Personal Slave
-👑 CloudMC
+🗣️  Ex-Owner
+👑 Dank World On Top
 👩🏻‍💻 Professional Dev (Spigot, HTML, CSS) \n ❤️ [arhaaam](${youtubeLink})\n 💙 [Atstreak](${InstagramLink})`)
             .setTimestamp();
 
