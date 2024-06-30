@@ -61,7 +61,7 @@ module.exports = {
 
     const button1 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://dsc.gg/cloudseven')
+      .setURL('https://dsc.gg/dankgc')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
