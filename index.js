@@ -110,8 +110,8 @@ async function login() {
     await client.login(process.env.TOKEN);
     console.log('\x1b[32m%s\x1b[0m', '|    🍔 I Alone Am The Honoured One');
     console.log('\x1b[36m%s\x1b[0m', '|    🚀 I Am Complete');
-    console.log('\x1b[32m%s\x1b[0m', `|    🌼 I Am Gojo Satoru`);
-    console.log('\x1b[36m%s\x1b[0m', `|    🏡 I Am On Cloud7`);
+    console.log('\x1b[32m%s\x1b[0m', `|    🌼 I Am Pepe The Frog`);
+    console.log('\x1b[36m%s\x1b[0m', `|    🏡 I Am On Dank World`);
   } catch (error) {
     console.error('\x1b[31m%s\x1b[0m', '❌ Failed to log in:', error);
     console.log('\x1b[31m%s\x1b[0m', '❌ Client Not Login, Restarting Process...');
@@ -124,7 +124,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `Cloud Seven | ☁`, type: ActivityType.Watching }],
+      activities: [{ name: `Dank World | ☁`, type: ActivityType.Watching }],
       status: 'idle',
     });
   }, 2000); 
